@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low-fi Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            color: #333;
+        }
+
+        .menu-container {
+            background-color: #005a9e;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-content {
+            text-align: center;
+        }
+
+        .menu-content a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .menu-content a:hover {
+            background-color: #0078d7;
+            box-shadow: 0 4px 6px rgba(0, 120, 215, 0.3);
+            transform: scale(1.05);
+        }
+
+        .section {
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #444;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .images img {
+            width: 280px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-content">
+            <a href="aboutus.html">Group Presentation</a>
+            <a href="explore.html">Project Idea</a>
+            <a href="needfinding.html">Need Finding</a>
+            <a href="conceptvideo.html">Concept Video</a>
+            <a href="lowfiprototype.html">Low-fi Prototype</a>
+            <a href="hifiprototype.html">Me-fi Prototype</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 1</h2>
+        <div class="images">
+            <img src="Sections/1.1.png" alt="Section 1 Image 1">
+            <img src="Sections/1.2.png" alt="Section 1 Image 2">
+            <img src="Sections/1.3.png" alt="Section 1 Image 3">
+            <img src="Sections/1.4.png" alt="Section 1 Image 4">
+            <img src="Sections/1.5.png" alt="Section 1 Image 5">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 2</h2>
+        <div class="images">
+            <img src="Sections/2.1.png" alt="Section 2 Image 1">
+            <img src="Sections/2.2.png" alt="Section 2 Image 2">
+            <img src="Sections/2.3.png" alt="Section 2 Image 3">
+            <img src="Sections/2.4.png" alt="Section 2 Image 4">
+            <img src="Sections/2.5.png" alt="Section 2 Image 5">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Section 3</h2>
+        <div class="images">
+            <img src="Sections/3.1.png" alt="Section 3 Image 1">
+            <img src="Sections/3.2.png" alt="Section 3 Image 2">
+            <img src="Sections/3.3.png" alt="Section 3 Image 3">
+            <img src="Sections/3.4.png" alt="Section 3 Image 4">
+        </div>
+    </div>
+</body>
+</html>
